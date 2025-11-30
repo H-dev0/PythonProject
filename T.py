@@ -1,4 +1,3 @@
-P = eval(input("Enter weight in pounds: "))
-I = eval(input("Enter height in inches: "))
-print(P/I)
-
+d = eval(input("Enter a degree in Celsius: "))
+f = ( 9/5 ) * d +32
+print(f"{d} Celsius is {f} Fahrenheit")
